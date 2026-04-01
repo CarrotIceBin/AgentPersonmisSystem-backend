@@ -44,7 +44,6 @@ public class DepartServiceImpl implements DepartService {
         map.put("departs", departs);
         departByCon.setAct("byNoPage");
         map.put("total", departRepository.selectDepartmentsByCon(departByCon).size());
-        System.out.print("12341");
         return map;
     }
 
