@@ -33,11 +33,6 @@ public class DepartServiceImpl implements DepartService {
         map.put("departs", departs);
         departByCon.setAct("byNoPage");
         map.put("total", departRepository.selectDepart(departByCon).size());
-
-        System.out.println("111");
-
-
-
         return map;
     }
 
