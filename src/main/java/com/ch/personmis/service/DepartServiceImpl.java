@@ -54,7 +54,6 @@ public class DepartServiceImpl implements DepartService {
         map.put("departs", departs);
         Depart aDepart = departRepository.getDepartmentDetail(id);
         map.put("aDepart", aDepart);
-        System.out.println(aDepart);
         return map;
     }
 
