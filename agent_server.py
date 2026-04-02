@@ -188,7 +188,7 @@ def agent_query(data: dict):
         return {"success": True, "answer": final_answer}
 
     except Exception as e:
-        error_info = f"服务端sss错误：{str(e)}"
+        error_info = f"服务端错误：{str(e)}"
         print(error_info)
         return {"success": False, "answer": error_info}
 
