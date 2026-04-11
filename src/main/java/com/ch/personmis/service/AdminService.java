@@ -6,6 +6,5 @@ import com.ch.personmis.entity.UserEntity;
 
 public interface AdminService {
 	public String login(UserEntity userEntity, HttpSession session);
-
 }
     

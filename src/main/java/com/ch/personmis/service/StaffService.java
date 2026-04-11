@@ -11,7 +11,7 @@ public interface StaffService {
     Map<String, Object> selectStaffByPage(StaffByCon staffByCon);
     Map<String, Object> selectStaffByCon(StaffByCon staffByCon);
     Staff getStaffDetail(int id);
-    String updateStaff(Staff staff );
+    String updateStaff(Staff staff);
     Map<String, Object> selectPeriodsByPage(PeriodByCon periodByCon);
     Map<String, Object> selectPeriodByCon(PeriodByCon periodByCon);
     String periodOp(int id, String status);

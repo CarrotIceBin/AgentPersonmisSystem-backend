@@ -13,6 +13,7 @@ import javax.servlet.http.HttpSession;
 public class AdminController {
     @Resource
     private AdminService adminService;
+
     @PostMapping(value = "/login")
     public String login(@RequestBody UserEntity userEntity, HttpSession session) {
         return adminService.login(userEntity, session);
